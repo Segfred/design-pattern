@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=oaUVVBOhyJw
+1、single responsibility principle单一责任原则
+一个类应该有且仅有一个改变他的理由，这意味着一个类应该只有一项工作
+2、Open close principle 开放封闭原则
+对象或实体应该对扩展开放，对修改封闭
+可以将需要加逻辑判断的变量或者参数抽象出来
+3、Liskov里氏替换原则：任何子类应该可以替换基类 确保是的关系
+4、Interface segretation principle接口分离原则：不应该强迫一个类实现它用不上的功能（和里氏替换原则对照着看）
+5、Dependency inversion principle抽象不应该依赖于具体实现，具体实现应该依赖于抽象
+
+策略模式
+对象包含策略，提供setStrategy方法
